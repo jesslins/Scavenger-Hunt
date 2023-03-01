@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,7 +18,7 @@ namespace scavenger_hunt
             Console.WriteLine("(Press any key)");
             Console.ReadKey();
 
-            do
+            doow
             {
                 Console.WriteLine("");
                 Console.WriteLine("Question 1: Who benefits from Treaties?");
@@ -70,15 +70,15 @@ namespace scavenger_hunt
 
                 if (attempts == 1)
                 {
-                    Console.WriteLine("Hint 1: zdpsxp ehowv");
+                    Console.WriteLine("Hint 1: LTT");
                 }
                 else if (attempts == 2)
                 {
-                    Console.WriteLine("Hint 2: Caeser Cipher");
+                    Console.WriteLine("Hint 2: Lets Talk Treaties");
                 }
                 else if (attempts == 3)
                 {
-                    Console.WriteLine("Hint 3: 3 to the right");
+                    Console.WriteLine("Hint 3: FNT");
                 }
                 else if (attempts == 4)
                 {
@@ -114,19 +114,19 @@ namespace scavenger_hunt
                 Console.WriteLine("Question 3: How many nations make up Treaty 4?");
                 if (attempts == 1)
                 {
-                    Console.WriteLine("Hint 1: 00110010 00100000 01010010 01101001 01100111 01101000 01110100 00101100 00100000 00110101 00100000 01000100 01101111 01110111 01101110 00101100 00100000 01010000 01100001 01110010 01100001 01100111 01110010 01100001 01110000 01101000 00100000 00110110");
+                    Console.WriteLine("Hint 1: Question 2's Hint 1");
                 }
                 else if (attempts == 2)
                 {
-                    Console.WriteLine("Hint 2: Binary");
+                    Console.WriteLine("Hint 2: 2 Right, 5 Down, Paragraph 6"); 
                 }
                 else if (attempts == 3)
                 {
-                    Console.WriteLine("Hint 3: 2 Right, 5 Down, Paragraph 6");
+                    Console.WriteLine("Hint 3: Numbered Treaties");
                 }
                 else if (attempts == 4)
                 {
-                    Console.WriteLine("Hint 4: Lets Talk Treaties” --> “Numbered Treaties” --> Paragraph 6/Second Paragraph under Treaty No. 4");
+                    Console.WriteLine("Hint 4: “Lets Talk Treaties” --> “Numbered Treaties” --> Paragraph 6/Second Paragraph under Treaty No. 4");
                 }
                 else if (attempts >= 5)
                 {
