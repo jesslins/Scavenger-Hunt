@@ -17,33 +17,11 @@ namespace scavenger_hunt
             Console.WriteLine("Go to tcrm.ca and enjoy :) ");
             Console.WriteLine("(Press any key)");
             Console.ReadKey();
+            Console.WriteLine("");
+            Console.WriteLine("Question 1: Who benefits from Treaties?");
 
-            doow
+            do
             {
-                Console.WriteLine("");
-                Console.WriteLine("Question 1: Who benefits from Treaties?");
-
-                if (attempts == 1)
-                {
-                    Console.WriteLine("Hint 1: 2, 2");
-                }
-                else if (attempts == 2)
-                {
-                    Console.WriteLine("Hint 2: Section, Page");
-                }
-                else if (attempts == 3)
-                {
-                    Console.WriteLine("Hint 3: Under the “Let’s Talk Treaties” tab");
-                }
-                else if (attempts == 4)
-                {
-                    Console.WriteLine("Hint 4: Second paragraph");
-                }
-                else if (attempts >= 5)
-                {
-                    Console.WriteLine("The answer is: all manitobans");
-                }
-
                 string answer = Console.ReadLine();
                 string lowercase = answer.ToLower();
 
@@ -57,37 +35,37 @@ namespace scavenger_hunt
                     attempts++;
                     Console.WriteLine("");
                     Console.WriteLine("Sorry, that is incorrect. Please try again.");
+                    if (attempts == 1)
+                    {
+                        Console.WriteLine("Hint 1: 2, 2");
+                    }
+                    else if (attempts == 2)
+                    {
+                        Console.WriteLine("Hint 2: Section, Page");
+                    }
+                    else if (attempts == 3)
+                    {
+                        Console.WriteLine("Hint 3: Under the “Let’s Talk Treaties” tab");
+                    }
+                    else if (attempts == 4)
+                    {
+                        Console.WriteLine("Hint 4: Second paragraph");
+                    }
+                    else if (attempts >= 5)
+                    {
+                        Console.WriteLine("The answer is: all Manitobans");
+                    }
                 }
             } while (correct == false);
 
             attempts = 0;
             correct = false;
 
+            Console.WriteLine(" ");
+            Console.WriteLine("Question 2: What did Eastern Canada use to record treaty promises?");
             do
             {
-                Console.WriteLine(" ");
-                Console.WriteLine("Question 2: What did Eastern Canada use to record treaty promises?");
-
-                if (attempts == 1)
-                {
-                    Console.WriteLine("Hint 1: LTT");
-                }
-                else if (attempts == 2)
-                {
-                    Console.WriteLine("Hint 2: Lets Talk Treaties");
-                }
-                else if (attempts == 3)
-                {
-                    Console.WriteLine("Hint 3: FNT");
-                }
-                else if (attempts == 4)
-                {
-                    Console.WriteLine("Hint 4: “First Nation Treaties” page");
-                }
-                else if (attempts >= 5)
-                {
-                    Console.WriteLine("The answer is: wampum belts");
-                }
+                
 
                 string answer = Console.ReadLine();
                 string lowercase = answer.ToLower();
@@ -102,37 +80,36 @@ namespace scavenger_hunt
                     attempts++;
                     Console.WriteLine("");
                     Console.WriteLine("Sorry, that is incorrect. Please try again.");
+                    if (attempts == 1)
+                    {
+                        Console.WriteLine("Hint 1: LTT");
+                    }
+                    else if (attempts == 2)
+                    {
+                        Console.WriteLine("Hint 2: Lets Talk Treaties");
+                    }
+                    else if (attempts == 3)
+                    {
+                        Console.WriteLine("Hint 3: FNT");
+                    }
+                    else if (attempts == 4)
+                    {
+                        Console.WriteLine("Hint 4: “First Nation Treaties” page");
+                    }
+                    else if (attempts >= 5)
+                    {
+                        Console.WriteLine("The answer is: wampum belts");
+                    }
                 }
             } while (correct == false);
 
             attempts = 0;
             correct = false;
 
+            Console.WriteLine("");
+            Console.WriteLine("Question 3: How many nations make up Treaty 4?");
             do
             {
-                Console.WriteLine("");
-                Console.WriteLine("Question 3: How many nations make up Treaty 4?");
-                if (attempts == 1)
-                {
-                    Console.WriteLine("Hint 1: Question 2's Hint 1");
-                }
-                else if (attempts == 2)
-                {
-                    Console.WriteLine("Hint 2: 2 Right, 5 Down, Paragraph 6"); 
-                }
-                else if (attempts == 3)
-                {
-                    Console.WriteLine("Hint 3: Numbered Treaties");
-                }
-                else if (attempts == 4)
-                {
-                    Console.WriteLine("Hint 4: “Lets Talk Treaties” --> “Numbered Treaties” --> Paragraph 6/Second Paragraph under Treaty No. 4");
-                }
-                else if (attempts >= 5)
-                {
-                    Console.WriteLine("The answer is: seven");
-                }
-
                 string answer = Console.ReadLine();
                 string lowercase = answer.ToLower();
 
@@ -146,37 +123,36 @@ namespace scavenger_hunt
                     attempts++;
                     Console.WriteLine("");
                     Console.WriteLine("Sorry, that is incorrect. Please try again.");
+                    if (attempts == 1)
+                    {
+                        Console.WriteLine("Hint 1: Question 2's Hint 1");
+                    }
+                    else if (attempts == 2)
+                    {
+                        Console.WriteLine("Hint 2: 2 Right, 5 Down, Paragraph 6");
+                    }
+                    else if (attempts == 3)
+                    {
+                        Console.WriteLine("Hint 3: Numbered Treaties");
+                    }
+                    else if (attempts == 4)
+                    {
+                        Console.WriteLine("Hint 4: “Lets Talk Treaties” --> “Numbered Treaties” --> Paragraph 6/Second Paragraph under Treaty No. 4");
+                    }
+                    else if (attempts >= 5)
+                    {
+                        Console.WriteLine("The answer is: seven");
+                    }
                 }
             } while (correct == false);
 
             attempts = 0;
             correct = false;
 
+            Console.WriteLine("");
+            Console.WriteLine("Question 4: Who said that the treaty is a relationship, which has no end?");
             do
             {
-                Console.WriteLine("");
-                Console.WriteLine("Question 4: Who said that the treaty is a relationship, which has no end?");
-                if (attempts == 1)
-                {
-                    Console.WriteLine("Hint 1: Cherry");
-                }
-                else if (attempts == 2)
-                {
-                    Console.WriteLine("Hint 2: Red");
-                }
-                else if (attempts == 3)
-                {
-                    Console.WriteLine("Hint 3: Home Page");
-                }
-                else if (attempts == 4)
-                {
-                    Console.WriteLine("Hint 4: “Treaties Today”");
-                }
-                else if (attempts >= 5)
-                {
-                    Console.WriteLine("The answer is: Aimee Craft");
-                }
-
                 string answer = Console.ReadLine();
                 string lowercase = answer.ToLower();
 
@@ -190,37 +166,36 @@ namespace scavenger_hunt
                     attempts++;
                     Console.WriteLine("");
                     Console.WriteLine("Sorry, that is incorrect. Please try again.");
+                    if (attempts == 1)
+                    {
+                        Console.WriteLine("Hint 1: Cherry");
+                    }
+                    else if (attempts == 2)
+                    {
+                        Console.WriteLine("Hint 2: Red");
+                    }
+                    else if (attempts == 3)
+                    {
+                        Console.WriteLine("Hint 3: Home Page");
+                    }
+                    else if (attempts == 4)
+                    {
+                        Console.WriteLine("Hint 4: “Treaties Today”");
+                    }
+                    else if (attempts >= 5)
+                    {
+                        Console.WriteLine("The answer is: Aimee Craft");
+                    }
                 }
             } while (correct == false);
 
             attempts = 0;
             correct = false;
 
+            Console.WriteLine("");
+            Console.WriteLine("Question 5: When is National Indigenous Peoples Day?");
             do
             {
-                Console.WriteLine("");
-                Console.WriteLine("Question 5: When is National Indigenous Peoples Day?");
-                if (attempts == 1)
-                {
-                    Console.WriteLine("Hint 1: Social Media");
-                }
-                else if (attempts == 2)
-                {
-                    Console.WriteLine("Hint 2: Red");
-                }
-                else if (attempts == 3)
-                {
-                    Console.WriteLine("Hint 3: Right");
-                }
-                else if (attempts == 4)
-                {
-                    Console.WriteLine("Hint 4: Instagram");
-                }
-                else if (attempts >= 5)
-                {
-                    Console.WriteLine("The answer is: June 21");
-                }
-
                 string answer = Console.ReadLine();
                 string lowercase = answer.ToLower();
 
@@ -234,6 +209,26 @@ namespace scavenger_hunt
                     attempts++;
                     Console.WriteLine("");
                     Console.WriteLine("Sorry, that is incorrect. Please try again.");
+                    if (attempts == 1)
+                    {
+                        Console.WriteLine("Hint 1: Social Media");
+                    }
+                    else if (attempts == 2)
+                    {
+                        Console.WriteLine("Hint 2: Red");
+                    }
+                    else if (attempts == 3)
+                    {
+                        Console.WriteLine("Hint 3: Right");
+                    }
+                    else if (attempts == 4)
+                    {
+                        Console.WriteLine("Hint 4: Instagram");
+                    }
+                    else if (attempts >= 5)
+                    {
+                        Console.WriteLine("The answer is: June 21");
+                    }
                 }
             } while (correct == false);
 
